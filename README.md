@@ -33,15 +33,15 @@ cd satnegirji
 
 <h2>In English & some technical stuff</h2>
 
-<p>A very simple sámi-finnish-sámi dictionary program written with C++. My first C++ program actually. Currently about 44000 word pairs, and there are some errors and a lot of duplicates in SQLite database. The database needs some cleaning for sure.</p>
+<p>A very simple sámi-finnish-sámi dictionary program written with C++. My first C++ program actually. The database I used is <a href="https://www.sqlite.org" target="_blank">SQLite</a>. Its very fast, flexible and it is already installed on your computer and smartphone.</p>
+
+<p>Currently about 44000 word pairs, and there are some errors and a lot of duplicates in SQLite database. The database needs some cleaning for sure.</p>
 
 <p>Very small memory footprint, only about +-1MB. Very fast, only nano seconds and the results are ready.</p>
 
-<p>To compile, put all files to same directory/folder ("satnegirji" recommended) and open a terminal and run:</p>
-
+<p>To compile, put all files to same directory/folder ("satnegirji" recommended) and open a terminal and run:</p
 
 <code>g++ -o satnegirji satnegirji.cpp utils.cpp -lsqlite3</code>
-
 
 <p>To use the program, put the compiled binary excecutable "satnegirji" and the database file "satnegirji.db" to same directory ("satnegirji" recommended), open a terminal and run:</p>
 
@@ -77,6 +77,10 @@ sqlite> create virtual table suomisaame USING FTS5(suomi,saame);
 sqlite> insert into suomisaame('suomi','saame') select distinct suomi,saame from skirja;
 </pre>
 </p>
+
+<h2>TODO</h2>
+
+<p>Jus mus livččii eambbo áigi...</p>
 
 
 
