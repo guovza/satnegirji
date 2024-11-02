@@ -12,7 +12,24 @@
 
 <h2>Mo mun geavahan dán prográmma / Instructions for end-users</h2>
 
-<p>Coming.... Vuordde vehá</p>
+<h3>SQLite database for suoma-sámi-suoma dictionary</h3>
+
+<p>The database is available via ProtonDrive due GitHub's inability to show files this large ;)</p>
+
+<p><a href="https://drive.proton.me/urls/NA9GH00PE0#HeTEl9U2w2vk" target="_blank">satnegirji.db</a> 12MB</p>
+
+<p>Precompiled binaries available soon for 64-bit macOS and Linux. Windows version will be available a little bit later. Vuordde vehá!</p>
+
+<p>To use the program, just put the satnegirji binary and satnegirji.db satabase to the same directory ("satnegirji" recommended).</p>
+
+<p>Then open a terminal and type the following in it:</p>
+
+<p>
+<pre>
+cd satnegirji
+./satnegirji
+</pre>
+</p>
 
 <h2>In English & some technical stuff</h2>
 
