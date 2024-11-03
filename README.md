@@ -12,7 +12,7 @@
 
 <h2>Mo mun geavahan dán prográmma / Instructions for end-users</h2>
 
-<p>Precompiled binaries are available for <a href="https://github.com/guovza/satnegirji/releases/tag/suoma-s%C3%A1me-suoma-satnegirji-macos">macOS</a> and very soon for 64-bit Linux. Windows version will be available a little bit later. Vuordde vehá!</p>
+<p>Precompiled binaries are available for <a href="https://github.com/guovza/satnegirji/releases/tag/suoma-s%C3%A1me-suoma-satnegirji-macos">macOS</a> and for 64-bit <a href="https://github.com/guovza/satnegirji/releases/tag/suoma-s%C3%A1me-suoma-satnegirji-linux">Linux</a>. Windows version will be available a little bit later. Vuordde vehá!</p>
 
 <p>To use the program, just put the satnegirji binary and satnegirji.db satabase to the same directory ("satnegirji" recommended).</p>
 
