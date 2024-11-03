@@ -6,7 +6,7 @@
 // please visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 // Dedicated to the memory of Kristian "Rico" Guttorm.
 // To compile, run:
-// g++ -o oza satnegirji.cpp utils.cpp -lsqlite3
+// g++ -o satnegirji satnegirji.cpp utils.cpp -lsqlite3
 //
 
 #ifndef UTILS_H
