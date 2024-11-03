@@ -12,8 +12,6 @@
 
 <h2>Mo mun geavahan dán prográmma / Instructions for end-users</h2>
 
-<h3>SQLite database for suoma-sámi-suoma dictionary</h3>
-
 <p>Precompiled binaries are available for <a href="https://github.com/guovza/satnegirji/releases/tag/suoma-same-suoma-satnegirji-macos">macOS</a> and very soon for 64-bit Linux. Windows version will be available a little bit later. Vuordde vehá!</p>
 
 <p>To use the program, just put the satnegirji binary and satnegirji.db satabase to the same directory ("satnegirji" recommended).</p>
