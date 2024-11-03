@@ -16,6 +16,8 @@
 
 <p>To use the program, just put the satnegirji binary and satnegirji.db satabase to the same directory ("satnegirji" recommended).</p>
 
+<p><pre>unzip package.zip</pre></p>
+
 <p>Then open a terminal and type the following in it:</p>
 
 <p>
