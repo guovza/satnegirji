@@ -27,7 +27,7 @@ cd satnegirji
 
 <h2>In English & some technical stuff</h2>
 
-<p>A very simple sámi-finnish-sámi dictionary program written with C++. My first C++ program actually. The database I used is <a href="https://www.sqlite.org" target="_blank">SQLite</a>. It's very fast, flexible and it is already installed on your computer and smartphone.</p>
+<p>A very simple sámi-finnish-sámi dictionary program written with C++. My first C++ program ever. The database I used is <a href="https://www.sqlite.org" target="_blank">SQLite</a>. It's very fast, flexible and it is already installed on your computer and smartphone.</p>
 
 <p>Currently about 44000 word pairs, and there are some errors and a lot of duplicates in SQLite database. The database needs some cleaning for sure.</p>
 
