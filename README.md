@@ -27,6 +27,8 @@ cd satnegirji
 </pre>
 </p>
 
+<p>Wildcard mark <b>*</b> is supported!!!!</p>
+
 <h2>In English & some technical stuff</h2>
 
 <p>A very simple sámi-finnish-sámi dictionary program written with C++. My first C++ program ever. The database I used is <a href="https://www.sqlite.org" target="_blank">SQLite</a>. It's very fast, flexible and it is already installed on your computer and smartphone.</p>
