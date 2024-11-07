@@ -7,7 +7,6 @@ using namespace std;
 //
 // This work is licensed under
 // Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
-// By Tapio & Visa Ryhänen
 // To view a copy of this license,
 // please visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 // Dedicated to the memory of Kristian "Rico" Guttorm.
@@ -47,179 +46,179 @@ Utils utils;
 
 int main() {
 
-	sqlite3* db;
-	//char *zErrMsg = 0;
-	int rc;
-	string sql;
+    sqlite3* db;
+    //char *zErrMsg = 0;
+    int rc;
+    string sql;
 
-	string choise;
-	bool choiseDone;
-	choiseDone = false;
+    string choise;
+    bool choiseDone;
+    choiseDone = false;
 
-	int quit = 0;
-	quit = sqlite3_open("satnegirji.db", &db);
+    int quit = 0;
+    quit = sqlite3_open("satnegirji.db", &db);
 
-	if (quit) {
+    if (quit) {
 
-		cerr << "SQLite: " << sqlite3_errmsg(db) << "\n";
+        cerr << "SQLite: " << sqlite3_errmsg(db) << "\n";
 
-	} else {
+    } else {
 
-		utils.clearScreen();
+        utils.clearScreen();
 
-	}
-	
-	while (true) {
+    }
+    
+    while (true) {
 
-		if (choiseDone == false || userInput == "??") {
+        if (choiseDone == false || userInput == "??") {
 
-			cout << "0 - Sulje ohjelma - Gidde prográmma\n";
-			cout << "1 - Haku suomen kielellä\n";
-			cout << "2 - Oza sámegillii\n";
-			cout << "3 - Tuurihaku - Lihkkuohcu\n";
-			cout << "?? - Hakuoptiot - Ohcumolssaeavttut\n";
-			cout << "Hakuoptio? - Ohcumolssaeaktu?>> ";
-			getline(cin, choise);
+            cout << "0 - Sulje ohjelma - Gidde prográmma\n";
+            cout << "1 - Haku suomen kielellä\n";
+            cout << "2 - Oza sámegillii\n";
+            cout << "3 - Tuurihaku - Lihkkuohcu\n";
+            cout << "?? - Hakuoptiot - Ohcumolssaeavttut\n";
+            cout << "Hakuoptio? - Ohcumolssaeaktu?>> ";
+            getline(cin, choise);
 
-		}
+        }
 
-		if (choise == "0") {
+        if (choise == "0") {
 
-			utils.clearScreen();
-			sqlite3_close(db);
-			exit(0);
+            utils.clearScreen();
+            sqlite3_close(db);
+            exit(0);
 
 } else if (choise == "3") {
 
-			// Search from sámi and finnish
+            // Search from sámi and finnish
 
-			choiseDone = true;
+            choiseDone = true;
 
-			cout << "Tuurihaku - Lihkkuohcu>> ";
-			getline(cin, userInput);
-		
-			replace_all(userInput, ";", "");
-			replace_all(userInput, "*", "%");
+            cout << "Tuurihaku - Lihkkuohcu>> ";
+            getline(cin, userInput);
+        
+            replace_all(userInput, ";", "");
+            replace_all(userInput, "*", "%");
 
-			sqlite3_stmt *stmt;
+            sqlite3_stmt *stmt;
 
-			if (!userInput.empty()) { 
+            if (!userInput.empty()) { 
 
-    			sql = "SELECT DISTINCT suomi as 'Suomi',saame as 'Sápmi' FROM suomisaame WHERE suomisaame match ? order by suomi;";
-    			rc = sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, NULL);
-			
-    		}
-			
-			if (rc != SQLITE_OK) {
-        		
-				// handle error
-        		std::cerr << "Failed to prepare SQL: " << sqlite3_errmsg(db) << std::endl;
+                sql = "SELECT DISTINCT suomi as 'Suomi',saame as 'Sápmi' FROM suomisaame WHERE suomisaame match ? order by suomi limit 1000;";
+                rc = sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, NULL);
+            
+            }
+            
+            if (rc != SQLITE_OK) {
+                
+                // handle error
+                std::cerr << "Failed to prepare SQL: " << sqlite3_errmsg(db) << std::endl;
 
-    		} else {
+            } else {
 
-        		sqlite3_bind_text(stmt, 1, userInput.c_str(), -1, NULL);  // bind user input
-        		
-				while (sqlite3_step(stmt) == SQLITE_ROW) {  // execute prepared statement
-            		const unsigned char *suomi = sqlite3_column_text(stmt, 0);
-            		const unsigned char *saame = sqlite3_column_text(stmt, 1);
-            		std::cout << "Suomi: " << suomi << "\nSápmi: " << saame << std::endl;
-					cout << "\n";
-        		}
+                sqlite3_bind_text(stmt, 1, userInput.c_str(), -1, NULL);  // bind user input
+                
+                while (sqlite3_step(stmt) == SQLITE_ROW) {  // execute prepared statement
+                    const unsigned char *suomi = sqlite3_column_text(stmt, 0);
+                    const unsigned char *saame = sqlite3_column_text(stmt, 1);
+                    std::cout << "Suomi: " << suomi << "\nSápmi: " << saame << std::endl;
+                    cout << "\n";
+                }
 
-        	sqlite3_finalize(stmt);  // cleanup
+            sqlite3_finalize(stmt);  // cleanup
 
-    		}
+            }
 
-		} else if (choise == "2") {
+        } else if (choise == "2") {
 
-			// Search from sámi to finnish
+            // Search from sámi to finnish
 
-			choiseDone = true;
+            choiseDone = true;
 
-			cout << "Oza sámegillii>> ";
-			getline(cin, userInput);
-		
-			replace_all(userInput, ";", "");
-			replace_all(userInput, "*", "%");
+            cout << "Oza sámegillii>> ";
+            getline(cin, userInput);
+        
+            replace_all(userInput, ";", "");
+            replace_all(userInput, "*", "%");
 
-			sqlite3_stmt *stmt;
+            sqlite3_stmt *stmt;
 
-			if (!userInput.empty()) { 
+            if (!userInput.empty()) { 
 
-    			sql = "SELECT DISTINCT suomi as 'Suomi',saame as 'Sápmi' FROM skirja WHERE saame LIKE ? order by saame;";
-    			rc = sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, NULL);
-			
-    		}
-			
-			if (rc != SQLITE_OK) {
-        		
-				// handle error
-        		std::cerr << "Failed to prepare SQL: " << sqlite3_errmsg(db) << std::endl;
+                sql = "SELECT DISTINCT suomi as 'Suomi',saame as 'Sápmi' FROM skirja WHERE saame LIKE ? order by saame limit 1000;";
+                rc = sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, NULL);
+            
+            }
+            
+            if (rc != SQLITE_OK) {
+                
+                // handle error
+                std::cerr << "Failed to prepare SQL: " << sqlite3_errmsg(db) << std::endl;
 
-    		} else {
+            } else {
 
-        		sqlite3_bind_text(stmt, 1, userInput.c_str(), -1, NULL);  // bind user input
-        		
-				while (sqlite3_step(stmt) == SQLITE_ROW) {  // execute prepared statement
-            		const unsigned char *suomi = sqlite3_column_text(stmt, 0);
-            		const unsigned char *saame = sqlite3_column_text(stmt, 1);
-            		std::cout << "Suomi: " << suomi << "\nSápmi: " << saame << std::endl;
-					cout << "\n";
-        		}
+                sqlite3_bind_text(stmt, 1, userInput.c_str(), -1, NULL);  // bind user input
+                
+                while (sqlite3_step(stmt) == SQLITE_ROW) {  // execute prepared statement
+                    const unsigned char *suomi = sqlite3_column_text(stmt, 0);
+                    const unsigned char *saame = sqlite3_column_text(stmt, 1);
+                    std::cout << "Suomi: " << suomi << "\nSápmi: " << saame << std::endl;
+                    cout << "\n";
+                }
 
-        	sqlite3_finalize(stmt);  // cleanup
+            sqlite3_finalize(stmt);  // cleanup
 
-    		}
+            }
 
-		} else if (choise == "1") {
-			
-			// Search from finnish to sámi
+        } else if (choise == "1") {
+            
+            // Search from finnish to sámi
 
-			choiseDone = true;
+            choiseDone = true;
 
-			cout << "Haku suomeksi>> ";
-			getline(cin, userInput);
-		
-			replace_all(userInput, ";", "");
-			replace_all(userInput, "*", "%");
+            cout << "Haku suomeksi>> ";
+            getline(cin, userInput);
+        
+            replace_all(userInput, ";", "");
+            replace_all(userInput, "*", "%");
 
-			sqlite3_stmt *stmt;
-			
-			if (!userInput.empty()) { 
+            sqlite3_stmt *stmt;
+            
+            if (!userInput.empty()) { 
 
-    			sql = "SELECT DISTINCT suomi as 'Suomi',saame as 'Sápmi' FROM skirja WHERE suomi LIKE ? order by suomi;";
-    			rc = sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, NULL);
-			
-    		}
-			
-			if (rc != SQLITE_OK) {
+                sql = "SELECT DISTINCT suomi as 'Suomi',saame as 'Sápmi' FROM skirja WHERE suomi LIKE ? order by suomi limit 1000;";
+                rc = sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt, NULL);
+            
+            }
+            
+            if (rc != SQLITE_OK) {
 
-        		// handle error
-        		std::cerr << "Failed to prepare SQL: " << sqlite3_errmsg(db) << std::endl;
+                // handle error
+                std::cerr << "Failed to prepare SQL: " << sqlite3_errmsg(db) << std::endl;
 
-    		} else {
+            } else {
 
-        		sqlite3_bind_text(stmt, 1, userInput.c_str(), -1, NULL);  // bind user input
-        		
-				while (sqlite3_step(stmt) == SQLITE_ROW) {  // execute prepared statement
-            		
-					const unsigned char *suomi = sqlite3_column_text(stmt, 0);
-            		const unsigned char *saame = sqlite3_column_text(stmt, 1);
-            		std::cout << "Suomi: " << suomi << "\nSápmi: " << saame << std::endl;
-					cout << "\n";
+                sqlite3_bind_text(stmt, 1, userInput.c_str(), -1, NULL);  // bind user input
+                
+                while (sqlite3_step(stmt) == SQLITE_ROW) {  // execute prepared statement
+                    
+                    const unsigned char *suomi = sqlite3_column_text(stmt, 0);
+                    const unsigned char *saame = sqlite3_column_text(stmt, 1);
+                    std::cout << "Suomi: " << suomi << "\nSápmi: " << saame << std::endl;
+                    cout << "\n";
 
-        		}
+                }
 
-        	sqlite3_finalize(stmt);  // cleanup
-    		}
+            sqlite3_finalize(stmt);  // cleanup
+            }
 
-		} else if (choise =="??" || userInput == "??") {
+        } else if (choise =="??" || userInput == "??") {
 
-			choiseDone = false;
+            choiseDone = false;
 
-		}
-	}
+        }
+    }
 
-	sqlite3_close(db);
-	return (0);
+    sqlite3_close(db);
+    return (0);
 }
