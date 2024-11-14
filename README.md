@@ -47,9 +47,12 @@ cd satnegirji
 
 <p>If you have new words to be added, the easiest way is to create a csv file in a following format:</p>
 
-<p><pre>"suomen kielen sana, toinen synonyymi","sámegiela sátni, synonyma"
-"sana","sátni"
-"toinen sana","nubbi sátni"</pre></p>
+<p><pre>"Pikkuvene","Gárbbis; unnislágán fanas"
+"Köli, emäpuu","Gielas"
+"Sauvoa","Goargŋut ~ goarpmut ~ čuoibmut; čuimmiin jođihit fatnasa vuosterávdnjái"
+"Kumota (vene talveksi)","Golvet; gomihit fatnasa dálvái"
+"Perälauta, selusta,liekko","Liehkku; fatnasa maŋŋegeahči, masa mohtor ásahuvvo"
+"Keskiteljo","Luŋka; fielluin ráhkaduvvon fanasláhtti gasku fatnas"</pre></p>
 
 <p>All other formats are of course also welcome.</p>
 
