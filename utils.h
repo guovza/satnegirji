@@ -1,7 +1,6 @@
 //
 // This work is licensed under
 // Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
-// By Tapio & Visa Ryhänen
 // To view a copy of this license,
 // please visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 // Dedicated to the memory of Kristian "Rico" Guttorm.
