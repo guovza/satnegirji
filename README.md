@@ -6,7 +6,7 @@
 
 <p>Mun álggahin čoakkildit sániid ovttas Kristian Guttorm sullii 30 jági dássá. Su jápmima maŋŋel lean  joatkán dán bárgu ain duollet dálle. Luobbal-Jovsset Esko ja Juvvá Lemet leaba maiddái veahkehan mu. Ollu giitu! Ja dieđusge lean maiddái geavahan Pekka Sammallahti ja Jovnna-Ánde Vest sátnegirjjiid. Eatnat giitu!</p>
 
-<p>Dán háve prográmma doaibmá Linuxis, macOSis ja Windowsis.</p>
+<p>Dán háve prográmma doaibmá Linuxis, macOSis ja Windowsis. Hálidivččen dahkat maid web veršuvvna, muhto mus váilu sihke server ja ruhta.</p>
 
 <p>Dárbbašan namalassii olbmuid geain lea buorre sámegiela dáidu muhto teknihkalaš máhttu lea maid buresboahtán.</p>
 
