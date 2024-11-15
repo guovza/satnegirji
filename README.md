@@ -2,17 +2,17 @@
 
 <p>Livččiigo dus beroštubmi dan prošektii? Jus dát geassá du miela, de don leat buresboahtin oassádallat! Eatnat giitu!</p>
 
-<p>Mu vuosttas C++ / SQLite prošeakta, suoma-davvisáme-suoma sátnegirji. Sullii 44000 suoma-davvisámi sátnebárra dál ja várra 10000 duppalat mat fertejit čorget eret. Lohken sámegiela 90-logus vierrogiellain ja lean vajálduhtán measta buot. Dál mun iskkán fas vehá hárjehallat go lean máhccan davás.</p>
+<p>Mu vuosttas C++ / SQLite prošeakta, suoma-davvisáme-suoma sátnegirji. Sullii 45000 suoma-davvisámi sátnebárra dál ja várra 10000 duppalat mat fertejit čorget eret. Lohken sámegiela 90-logus vierrogiellain ja lean vajálduhtán measta buot. Dál mun iskkán fas vehá hárjehallat go lean máhccan davás.</p>
 
 <p>Mun álggahin čoakkildit sániid ovttas Kristian Guttorm sullii 30 jági dássá. Su jápmima maŋŋel lean  joatkán dán bárgu ain duollet dálle. Luobbal-Jovsset Esko ja Juvvá Lemet leaba maiddái veahkehan mu. Ollu giitu! Ja dieđusge lean maiddái geavahan Pekka Sammallahti ja Jovnna-Ánde Vest sátnegirjjiid. Eatnat giitu!</p>
 
-<p>Dán háve prográmma doaibmá Linuxis ja macOSis, áiggun vel dahkat Windows veršuvnna.</p>
+<p>Dán háve prográmma doaibmá Linuxis, macOSis ja Windowsis.</p>
 
 <p>Dárbbašan namalassii olbmuid geain lea buorre sámegiela dáidu muhto teknihkalaš máhttu lea maid buresboahtán.</p>
 
 <h2>Mo mun geavahan dán prográmma / Instructions for end-users</h2>
 
-<p>Precompiled binaries are available for <a href="https://github.com/guovza/satnegirji/releases/tag/suoma-same-suoma-satnegirji-macos">macOS</a> and for 64-bit <a href="https://github.com/guovza/satnegirji/releases/tag/suoma-same-suoma-satnegirji-linux">Linux</a>. Windows version will be available a little bit later. Vuordde vehá!</p>
+<p>Precompiled binaries are available for macOS,64-bit Linux and Windows under the <a href="https://github.com/guovza/satnegirji/releases">Releases page</a>. Choose the package of your choice based on what OS your are running!</p>
 
 <p>To use the program, just put the satnegirji binary and satnegirji.db satabase to the same directory ("satnegirji" recommended).</p>
 
