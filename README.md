@@ -27,7 +27,19 @@ cd satnegirji
 </pre>
 </p>
 
-<p>Wildcard mark <b>*</b> is supported!!!!</p>
+<p>Wildcard mark <b>*</b> is supported with search options 1 and 2:</p>
+
+<p>
+<pre>
+*loddi
+boazo*
+*lintu
+maa*
+*arvo*
+</pre>
+</p>
+
+
 
 <h2>In English & some technical stuff</h2>
 
