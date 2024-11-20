@@ -93,7 +93,7 @@ sqlite> insert into suomisaame('suomi','saame') select distinct suomi,saame from
 
 <h2>TODO</h2>
 
-<p>Jus mus livččii eambbo áigi...</p>
+<p>Álgu (Kotus diehtovuođđu) sánit... Rebuild the database with the wordpairs from Álgu-database</p>
 
 <h2>Lisence - Liseansa</h2>
 
