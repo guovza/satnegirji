@@ -4,7 +4,7 @@
 
 <p>Mu vuosttas C++ / SQLite prošeakta, suoma-davvisáme-suoma sátnegirji. Sullii 50000 suoma-davvisáme sátnebárra dál. Lohken sámegiela 90-logus vierrogiellain ja lean vajálduhtán measta buot. Dál mun iskkán fas vehá hárjehallat go lean máhccan davás.</p>
 
-<p>Mun álggahin čoakkildit sániid ovttas Kristian Guttorm sullii 30 jági dássá. Su jápmima maŋŋel lean  joatkán dán bárgu ain duollet dálle. Luobbal-Jovsset Esko ja Juvvá Lemet leaba veahkehan mu ollu. Ollu giitu! Easkabáliid ožžon Álgu-sániid John Anders Sikkus, ollu giitu! Ja dieđusge lean maiddái geavahan Pekka Sammallahti ja Jovnna-Ánde Vest sátnegirjjiid. Eatnat giitu!</p>
+<p>Mun álggahin čoakkildit sániid ovttas Kristian Guttorm sullii 30 jági dássá. Su jápmima maŋŋel lean  joatkán dán bárgu ain duollet dálle. Luobbal-Jovsset Esko ja Juvvá Lemet leaba veahkehan mu ollu. Ollu giitu! Easkabáliid ožžon Kotus <a href="https://kaino.kotus.fi/algu/index.php?t=etusivu&kkieli=sa">Álgu</a>-sániid John Anders Sikkus, ollu giitu! Ja dieđusge lean maiddái geavahan Pekka Sammallahti ja Jovnna-Ánde Vest sátnegirjjiid. Eatnat giitu!</p>
 
 <p>Dán háve prográmma doaibmá Linuxis, macOSis ja Windowsis. Gávnnat prográmma <a href="https://github.com/guovza/satnegirji/releases">Releases-siiddus</a>. Hálidivččen dahkat maid web veršuvvna, muhto mus váilu sihke server ja ruhta.</p>
 
