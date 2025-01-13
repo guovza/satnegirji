@@ -4,4 +4,4 @@
 
 <p>Please, contribute! </p>
 
-<p>Dedicated to the memory of "Rico" Richard Kristian Guttorm (1972-1999). Never forget.</p>
+<p>Dedicated to the memory of "Rico" Richard Kristian Guttorm (1972-1999).</p>
