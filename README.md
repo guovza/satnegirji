@@ -87,7 +87,7 @@ sqlite> drop table skirjatmp;
 
 <p>
 <pre>
-sqlite> drop table suomisaame
+sqlite> drop table suomisaame;
 sqlite> create virtual table suomisaame USING FTS5(suomi,saame); 
 sqlite> insert into suomisaame('suomi','saame') select distinct suomi,saame from skirja;
 </pre>
