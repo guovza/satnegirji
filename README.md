@@ -95,7 +95,8 @@ sqlite> insert into suomisaame('suomi','saame') select distinct suomi,saame from
 
 <h2>TODO</h2>
 
-<p>Web-veršuvdna</p>
+<p>Web-veršuvdna, vuordá ruhtadeapmičovdojumi</p>
+<p>Eŋgelasgiella-davvisápmi-eŋgelasgiella websátnegirji, dán jagi áigge</p>
 
 <h2>Lisence - Liseansa</h2>
 
