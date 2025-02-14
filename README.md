@@ -10,6 +10,8 @@
 
 <p>Dárbbašan namalassii olbmuid geain lea buorre sámegiela dáidu muhto teknihkalaš máhttu lea maid buresboahtán.</p>
 
+<h2></h2>
+
 <h2>Mo mun geavahan dán prográmma / Instructions for end-users</h2>
 
 <p>Precompiled binaries are available for macOS,64-bit Linux and Windows under the <a href="https://github.com/guovza/satnegirji/releases">Releases page</a>. Choose the package of your choice based on what OS your are running!</p>
@@ -95,8 +97,8 @@ sqlite> insert into suomisaame('suomi','saame') select distinct suomi,saame from
 
 <h2>TODO</h2>
 
-<p>Web-veršuvdna, vuordá ruhtadeapmičovdojumi</p>
-<p>Eŋgelasgiella-davvisápmi-eŋgelasgiella websátnegirji, dán jagi áigge</p>
+<p><b>Web-veršuvdna</b>, vuordá ruhtadeapmičovdojumi ja lea dál prioritehta nummir okta</p>
+<p><b>Eŋgelasgiella-davvisápmi-eŋgelasgiella websátnegirji</b>, dán jagi áigge</p>
 
 <h2>Lisence - Liseansa</h2>
 
