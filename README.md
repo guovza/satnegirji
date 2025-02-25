@@ -10,7 +10,10 @@
 
 <p>Dárbbašan namalassii olbmuid geain lea buorre sámegiela dáidu muhto teknihkalaš máhttu lea maid buresboahtán.</p>
 
-<h2></h2>
+<h2>TODO</h2>
+
+<p><b>Web-veršuvdna</b>, vuordá ruhtadeapmičovdojumi ja lea dál prioritehta nummir okta</p>
+<p><b>Eŋgelasgiella-davvisápmi-eŋgelasgiella websátnegirji</b>, dán jagi áigge</p>
 
 <h2>Mo mun geavahan dán prográmma / Instructions for end-users</h2>
 
@@ -94,11 +97,6 @@ sqlite> create virtual table suomisaame USING FTS5(suomi,saame);
 sqlite> insert into suomisaame('suomi','saame') select distinct suomi,saame from skirja;
 </pre>
 </p>
-
-<h2>TODO</h2>
-
-<p><b>Web-veršuvdna</b>, vuordá ruhtadeapmičovdojumi ja lea dál prioritehta nummir okta</p>
-<p><b>Eŋgelasgiella-davvisápmi-eŋgelasgiella websátnegirji</b>, dán jagi áigge</p>
 
 <h2>Lisence - Liseansa</h2>
 
