@@ -100,7 +100,7 @@ sqlite> insert into suomisaame('suomi','saame') select distinct suomi,saame from
 
 <h2>Lisence - Liseansa</h2>
 
-<p>Don sáhttát geavahit dan prográmma go čuovut Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International -liseansa.</p>
+<p>Don sáhttát geavahit dán prográmma go čuovut Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International -liseansa.</p>
 
 <p>This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
 
