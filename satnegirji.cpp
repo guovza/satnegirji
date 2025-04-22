@@ -18,6 +18,14 @@
 
 using namespace std;
 
+//
+// This work is licensed under
+// Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+// To view a copy of this license,
+// please visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+// Dedicated to the memory of Kristian "Rico" Guttorm (1972-1999).
+//
+
 // Function to sanitize input for search
 void sanitizeInputForSearch(std::string &input)
 {
