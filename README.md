@@ -12,7 +12,7 @@
 
 <h2>TODO</h2>
 
-<p><b>Web-veršuvdna</b>, ii ruhtadeapmičovdojumi muhto ii dat daga maidege</p>
+<p><b>Web-veršuvdna</b>, ii ruhtadeapmičovdojumi muhto ii dat daga maidege. Ruhtadeapmi 0€</p>
 <p><b>Eŋgelasgiella-davvisápmi-eŋgelasgiella websátnegirji</b>, dán jagi áigge</p>
 
 <h2>Mo mun geavahan dán prográmma / Instructions for end-users</h2>
