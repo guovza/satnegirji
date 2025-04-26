@@ -76,7 +76,7 @@ maa*
 "Perälauta, selusta,liekko","Liehkku; fatnasa maŋŋegeahči, masa mohtor ásahuvvo"
 "Keskiteljo","Luŋka; fielluin ráhkaduvvon fanasláhtti gasku fatnas"</pre></p>
 
-<p>All other formats are of course also welcome. My e-mail is visible on my profile.</p>
+<p>All other formats are of course also welcome. My e-mail is skuolfi.relay980@passmail.net</p>
 
 <p>A csv file can then be inserted easily to the SQLite database with sqlite3 or sqlite3.exe</p>
 
