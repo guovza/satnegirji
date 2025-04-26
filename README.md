@@ -13,7 +13,8 @@
 <h2>TODO</h2>
 
 <p><b>Web-veršuvdna</b>, ii ruhtadeapmičovdojumi muhto ii dat daga maidege.</p>
-<p>We tried to get some funding for this project but got none. All the work is done with 0€. <b>Please help and contribute</b>.</p>
+
+<p>All the work is done with 0€. <b>Please help and contribute</b>.</p>
 
 <p>If you have new words or if you spot an error(s), please e-mail me skuolfi.relay980@passmail.net</p>
 
