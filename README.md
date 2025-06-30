@@ -12,7 +12,6 @@
 
 <h2>TODO</h2>
 
-<p><b>Web-veršuvdna</b>, ii ruhtadeapmičovdojumi muhto ii dat daga maidege.</p>
 
 <p>All the work is done with 0€. <b>Please help and contribute</b>.</p>
 
